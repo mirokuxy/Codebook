@@ -51,7 +51,7 @@ int main(){
 	while(1){
 		scanf("%d",&x);
 		if(x < 0) break;
-		printf("%d\n",bsearch_nonrecursive(a,0,n,x));
+		printf("%d\n",bsearch(a,0,n,x));
 	}
 
 	return 0;
